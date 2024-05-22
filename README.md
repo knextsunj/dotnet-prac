@@ -1,2 +1,2 @@
-# mf-dotnet-microservices
-Microservices for MF CMS written in C# .NET
+# dotnet-prac
+Practice programs for the core C# programming language
