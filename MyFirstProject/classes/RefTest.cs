@@ -13,14 +13,14 @@ namespace MyFirstProject.classes
 
         private int z = 25;
 
-        public static void Main(string[] args) {
-            RefTest refTest= new RefTest();
-            Console.WriteLine($"y={refTest.y}");
-            refTest.manipulate(ref refTest.y,out refTest.result1,in refTest.z);
-            Console.WriteLine($"now y={refTest.y}");
-            Console.WriteLine("result1="+refTest.result1);
-            refTest.switches(2);
-        }
+        // public static void Main(string[] args) {
+        //     RefTest refTest= new RefTest();
+        //     Console.WriteLine($"y={refTest.y}");
+        //     refTest.manipulate(ref refTest.y,out refTest.result1,in refTest.z);
+        //     Console.WriteLine($"now y={refTest.y}");
+        //     Console.WriteLine("result1="+refTest.result1);
+        //     refTest.switches(2);
+        // }
  
         public void manipulate(ref int x,out int result,in int z) {
             Console.WriteLine("x=" + x);
